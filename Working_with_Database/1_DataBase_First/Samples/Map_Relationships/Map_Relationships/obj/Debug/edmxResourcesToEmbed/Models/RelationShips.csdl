@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="RelationshipsModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Author">
+    <Key>
+      <PropertyRef Name="Pk_Author_Id" />
+    </Key>
+    <Property Name="Pk_Author_Id" Type="Int32" Nullable="false" />
+    <Property Name="FullName" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="MobileNo" Type="String" MaxLength="10" FixedLength="true" Unicode="false" />
+    <Property Name="Fk_Book_Id" Type="Int32" />
+    <NavigationProperty Name="Book" Relationship="Self.FK__Author__Fk_Book___182C9B23" FromRole="Author" ToRole="Book" />
+  </EntityType>
+  <EntityType Name="Book">
+    <Key>
+      <PropertyRef Name="Pk_Book_Id" />
+    </Key>
+    <Property Name="Pk_Book_Id" Type="Int32" Nullable="false" />
+    <Property Name="Name" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="ISBN" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Authors" Relationship="Self.FK__Author__Fk_Book___182C9B23" FromRole="Book" ToRole="Author" />
+  </EntityType>
+  <EntityType Name="Course">
+    <Key>
+      <PropertyRef Name="Pk_Course_Id" />
+    </Key>
+    <Property Name="Pk_Course_Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CourseName" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Students" Relationship="Self.StudentCourse" FromRole="Course" ToRole="Student" />
+  </EntityType>
+  <EntityType Name="PassportDetail">
+    <Key>
+      <PropertyRef Name="Pk_Passport_Id" />
+    </Key>
+    <Property Name="Pk_Passport_Id" Type="Int32" Nullable="false" />
+    <Property Name="Passport_Number" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="Fk_Person_Id" Type="Int32" />
+    <NavigationProperty Name="Person" Relationship="Self.FK__PassportD__Fk_Pe__1367E606" FromRole="PassportDetails" ToRole="Person" />
+  </EntityType>
+  <EntityType Name="Person">
+    <Key>
+      <PropertyRef Name="Pk_Person_Id" />
+    </Key>
+    <Property Name="Pk_Person_Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="EmailId" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="PassportDetails" Relationship="Self.FK__PassportD__Fk_Pe__1367E606" FromRole="Person" ToRole="PassportDetails" />
+  </EntityType>
+  <EntityType Name="Student">
+    <Key>
+      <PropertyRef Name="Pk_Student_Id" />
+    </Key>
+    <Property Name="Pk_Student_Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="StudentName" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Courses" Relationship="Self.StudentCourse" FromRole="Student" ToRole="Course" />
+  </EntityType>
+  <EntityType Name="sysdiagram">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <Association Name="FK__Author__Fk_Book___182C9B23">
+    <End Role="Book" Type="Self.Book" Multiplicity="0..1" />
+    <End Role="Author" Type="Self.Author" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Book">
+        <PropertyRef Name="Pk_Book_Id" />
+      </Principal>
+      <Dependent Role="Author">
+        <PropertyRef Name="Fk_Book_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__PassportD__Fk_Pe__1367E606">
+    <End Role="Person" Type="Self.Person" Multiplicity="0..1" />
+    <End Role="PassportDetails" Type="Self.PassportDetail" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Person">
+        <PropertyRef Name="Pk_Person_Id" />
+      </Principal>
+      <Dependent Role="PassportDetails">
+        <PropertyRef Name="Fk_Person_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="StudentCourse">
+    <End Role="Course" Type="Self.Course" Multiplicity="*" />
+    <End Role="Student" Type="Self.Student" Multiplicity="*" />
+  </Association>
+  <EntityContainer Name="RelationshipsEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Authors" EntityType="Self.Author" />
+    <EntitySet Name="Books" EntityType="Self.Book" />
+    <EntitySet Name="Courses" EntityType="Self.Course" />
+    <EntitySet Name="PassportDetails" EntityType="Self.PassportDetail" />
+    <EntitySet Name="People" EntityType="Self.Person" />
+    <EntitySet Name="Students" EntityType="Self.Student" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagram" />
+    <AssociationSet Name="FK__Author__Fk_Book___182C9B23" Association="Self.FK__Author__Fk_Book___182C9B23">
+      <End Role="Book" EntitySet="Books" />
+      <End Role="Author" EntitySet="Authors" />
+    </AssociationSet>
+    <AssociationSet Name="FK__PassportD__Fk_Pe__1367E606" Association="Self.FK__PassportD__Fk_Pe__1367E606">
+      <End Role="Person" EntitySet="People" />
+      <End Role="PassportDetails" EntitySet="PassportDetails" />
+    </AssociationSet>
+    <AssociationSet Name="StudentCourse" Association="Self.StudentCourse">
+      <End Role="Course" EntitySet="Courses" />
+      <End Role="Student" EntitySet="Students" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

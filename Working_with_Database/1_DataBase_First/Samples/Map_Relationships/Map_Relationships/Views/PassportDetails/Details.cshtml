@@ -1,0 +1,34 @@
+﻿@model Map_Relationships.Models.PassportDetail
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>PassportDetail</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Passport_Number)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Passport_Number)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Person.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Person.Name)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Pk_Passport_Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

@@ -1,0 +1,45 @@
+﻿@model IEnumerable<Map_Relationships.Models.Author>
+
+@{
+    ViewBag.Title = "MyIndex";
+}
+
+<h2>MyIndex</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.FullName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.MobileNo)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Book.Name)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.FullName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.MobileNo)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Book.Name)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.Pk_Author_Id }) |
+            @Html.ActionLink("Details", "Details", new { id=item.Pk_Author_Id }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.Pk_Author_Id })
+        </td>
+    </tr>
+}
+
+</table>
