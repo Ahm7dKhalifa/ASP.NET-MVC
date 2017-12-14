@@ -1,0 +1,23 @@
+﻿@using WebApplication1.Models;
+@model WebApplication1.Models.Student
+
+@{
+    ViewBag.Title = "ViewDataExamples";
+}
+
+<h2>ViewDataExamples</h2>
+
+<h3>ViewData With Bulit-in DataTYPE</h3>
+<h6>@ViewData["MyName"]</h6>
+<h3>ViewData With One Object</h3>
+<h6>@ViewData["StId"]</h6>
+<h6>@ViewData["StName"]</h6>
+<h6>@ViewData["StAge"]</h6>
+<h3>ViewData With List of Objects</h3>
+@foreach (var st in (List<Student>) ViewData["AllStudents"])
+{
+        <h6>@st.Id</h6>
+        <h6>@st.Name</h6>
+        <h6>@st.Age</h6>
+
+}

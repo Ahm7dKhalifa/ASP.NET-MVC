@@ -1,0 +1,26 @@
+How To pass Data Between Controller And View?
+===================================
+1- ViewBag
+==================================
+1.1 - ViewBag With Bulit-In DataType
+1.2 - ViewBag With One Object From Model
+1.3 - ViewBag With List of Objects
+===================================
+2- ViewData
+==================================
+2.1 - ViewData With Bulit-In DataType
+2.2 - ViewData With One Object From Model
+2.3 - ViewData With List of Objects
+
+=====================================
+#ViewData Vs ViewBag
+=====================================
+
+===========================================
+3- TempData
+===========================================
+3.1 - What Is The ADVANTAGE OF TEMpData
+
+=============================================
+4- viewModel
+=============================================

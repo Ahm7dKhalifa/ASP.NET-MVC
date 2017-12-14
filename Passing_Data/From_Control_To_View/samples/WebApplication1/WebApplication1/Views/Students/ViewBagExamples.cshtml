@@ -1,0 +1,21 @@
+﻿@using WebApplication1.Models;
+
+@{
+    ViewBag.Title = "ViewBagExamples";
+}
+
+<h2>ViewBagExamples</h2>
+<h3>ViewBag With Bulit-in DataTYPE</h3>
+<h6>@ViewBag.MyName</h6>
+<h3>ViewBag With One Object</h3>
+<h6>@ViewBag.StId</h6>
+<h6>@ViewBag.StName</h6>
+<h6>@ViewBag.StAge</h6>
+<h3>ViewBag With List of Objects</h3>
+@foreach (var st in ViewBag.AllStudents)
+{
+        <h6>@st.Id</h6>
+        <h6>@st.Name</h6>
+        <h6>@st.Age</h6>
+        
+}

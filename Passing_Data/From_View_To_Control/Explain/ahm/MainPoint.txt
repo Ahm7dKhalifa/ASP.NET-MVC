@@ -1,0 +1,6 @@
+what is the four way to 
+passing data from view to control?
+---------
+in pdf
+---------
+######################################
