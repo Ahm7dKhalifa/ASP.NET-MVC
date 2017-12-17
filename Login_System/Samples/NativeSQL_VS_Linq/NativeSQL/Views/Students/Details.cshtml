@@ -1,0 +1,20 @@
+﻿@model NativeSQL.Models.Students
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<table>
+    <tr>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Age</th>
+        <th>Crud Operation</th>
+    </tr>
+    <tr>
+        <td>@Model.Id</td> 
+        <td>@Model.Name</td> 
+        <td>@Model.Age</td>
+        <td><a href="~/Students/Edit/@Model.Id">Edit</a> | <a href="~/Students/Delete/@Model.Id">Delete</a> </td>
+    </tr>
+</table>

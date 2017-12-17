@@ -1,0 +1,33 @@
+DataTypes of users Columns in database 
+and properties in users class or model
+------------
+code
+-----------
+###############################################
+the values of properties user model can be added by the user 
+or by developer in code 
+------------
+code
+-----------
+###############################################
+how to generate grid
+------------
+code
+-----------
+#############################################
+how to hashing password
+------------
+code
+-----------
+#######################################
+how to send email
+------------
+code
+-----------
+########################################
+ cookies
+-------------------
+https://www.youtube.com/watch?v=PmziMRE9NQ8&t=385s
+https://www.w3schools.com/php/php_cookies.asp
+https://www.youtube.com/watch?v=zOW_m1l7xnc
+  

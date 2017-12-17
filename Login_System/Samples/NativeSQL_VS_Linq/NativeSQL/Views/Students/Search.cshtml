@@ -1,0 +1,36 @@
+﻿@model IEnumerable<NativeSQL.Models.Students>
+
+@{
+    ViewBag.Title = "Search";
+}
+
+<form action="~/Students/Search" method="post">
+    <input type="text" placeholder="Search by Name..." name="Search" id="Search">
+    <input type="submit" value="go" id="go">
+</form>
+
+<h2>Search results About @ViewBag.SearchKeyWord </h2>
+
+<table>
+    <tr>
+        <th>Id</th>
+        <th>Name</th>
+        <th>age</th>
+        <th>Crud Operation</th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.Id</td>
+            <td>@item.Name</td>
+            <td>@item.Age</td>
+            <td>
+                <a href="~/Students/Details/@item.Id"> Details</a>
+                | <a href="~/Students/Edit/@item.Id"> Edit</a>
+                | <a href="~/Students/Delete/@item.Id"> Delete </a>
+            </td>
+        </tr>
+    }
+</table>
+

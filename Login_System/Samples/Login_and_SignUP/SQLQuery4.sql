@@ -1,0 +1,1 @@
+﻿delete from users where EmailID = 'ahm7dkhalifa@gmail.com'

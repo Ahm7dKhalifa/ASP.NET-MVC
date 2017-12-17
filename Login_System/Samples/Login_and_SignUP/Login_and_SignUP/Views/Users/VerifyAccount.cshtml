@@ -1,0 +1,16 @@
+﻿
+@{
+    ViewBag.Title = "VerifyAccount";
+}
+
+<h2>Verify Account</h2>
+@if(ViewBag.WelcomeMessage == null )
+{
+   <h1>@ViewBag.ErrorMessage</h1>
+}
+@if(ViewBag.ErrorMessage == null)
+{
+    <h1>@ViewBag.WelcomeMessage</h1>
+    <h1><a href="/Users/Login">Click Here To Go To your Account</a></h1>
+}
+
