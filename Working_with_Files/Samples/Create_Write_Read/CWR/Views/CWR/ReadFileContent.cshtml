@@ -1,0 +1,18 @@
+﻿
+@{
+    ViewBag.Title = "ReadFileContent";
+}
+
+<h2>ReadFileContent</h2>
+<form action="~/CWR/ReadFileContent" method="post">
+    <input type="text" name="FileNameWithExtension" style="width:500px;height:50px;display:block;font-size:16px" placeholder="ENTER FILE NAME With Extension" />
+    <input type="submit" value="ReadFile" style="width:15%;height:50px;display:block;font-size:25px" />
+</form>
+@if (ViewBag.ErrorMessage != null)
+{
+  <h1>@ViewBag.ErrorMessage</h1>
+}
+@if (ViewBag.FileContent != null)
+{
+    <h1>@ViewBag.FileContent</h1>
+}

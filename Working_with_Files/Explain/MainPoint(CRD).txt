@@ -1,0 +1,12 @@
+/#########################
+how to determin the path in the server
+---------
+https://msdn.microsoft.com/en-us/library/system.web.httpserverutility(v=vs.110).aspx
+/#########################
+how to create and write and read on text file
+---------
+https://docs.microsoft.com/en-us/aspnet/web-pages/overview/data/working-with-files
+https://msdn.microsoft.com/en-us/library/system.io.file(v=vs.110).aspx
+http://www.c-sharpcorner.com/UploadFile/mahesh/create-a-text-file-in-C-Sharp/
+https://www.youtube.com/watch?v=VYeBHWlaIfA&index=3&list=LLKTxmFZziruPLzSttiQs7uQ
+https://www.tutorialspoint.com/csharp/csharp_file_io.htm

@@ -1,0 +1,12 @@
+###########################
+any file
+##########################
+http://www.c-sharpcorner.com/article/upload-files-in-asp-net-mvc-5/
+--------
+https://www.codeproject.com/Articles/19677/Formats-for-DateTime-ToString
+--------
+https://stackoverflow.com/questions/3025361/c-sharp-datetime-to-yyyymmddhhmmss-format
+############################
+image only
+###############################
+https://www.youtube.com/watch?v=5L5W-AE-sEs
