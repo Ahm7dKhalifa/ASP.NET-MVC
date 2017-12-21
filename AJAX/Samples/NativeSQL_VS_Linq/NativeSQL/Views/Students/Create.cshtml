@@ -1,0 +1,36 @@
+﻿@model NativeSQL.Models.Students
+
+@{
+    ViewBag.Title = "Create";
+}
+
+<div id="login-box">
+
+    <div class="left">
+        <h1>Create</h1>
+        <form action="/Students/Create" method="post">
+            <input type="text" name="Id" placeholder="Id" />
+            <input type="text" name="Name" placeholder="Name" />
+            <input type="text" name="Age" placeholder="Age" />
+            <input type="submit" value="Create " />
+        </form>
+        
+    </div>
+
+
+    <div class="right">
+        <span class="loginwith">
+            Sign in with<br />
+            social network
+        </span>
+        <button class="social-signin facebook">Log in with facebook</button>
+        <button class="social-signin twitter">Log in with Twitter</button>
+        <button class="social-signin google">Log in with Google+</button>
+    </div>
+
+    <div class="or">OR</div>
+
+</div>
+
+
+

@@ -1,0 +1,25 @@
+﻿@model NativeSQL.Models.Students
+
+@{
+    ViewBag.Title = "Edit";
+}
+
+<h2>Edit</h2>
+
+<div id="login-box">
+
+    <div class="left">
+        <h1>Edit Student Number =  @Model.Id</h1>
+        <form action="/Students/Edit" method="post">
+            <input type="text" name="Id" placeholder="Id" value="@Model.Id" hidden />
+            <input type="text" name="Name" placeholder="Name"  value="@Model.Name"/>
+            <input type="text" name="Age" placeholder="Age" value="@Model.Age" />
+            <input type="submit" value="Edit" />
+        </form>
+    </div>
+
+</div>
+
+
+
+   
