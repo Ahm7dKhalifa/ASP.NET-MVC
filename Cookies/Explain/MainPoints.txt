@@ -1,0 +1,100 @@
+######################
+what is cookies
+----------------
+https://msdn.microsoft.com/en-us/library/ms178194.aspx
+########################
+how cookies work
+---------------
+https://msdn.microsoft.com/en-us/library/ms178194.aspx
+#######################
+examples of using cookies
+----------------
+s
+########################
+Cookie Limitations
+--------------
+- the size of one cookie
+- number of cookie
+- p3p
+----------------
+s
+###########################
+Cookie and HttpResponse object
+--------------
+s
+##########################
+how to create cookie
+-------
+- by responce property
+- by httpcookie class
+----------
+s
+#########################
+Cookies with More Than One Value
+----------
+- when and why to use it 
+- how to write it
+----------
+s
+#########################
+Controlling Cookie Scope
+-------------
+- Limit the scope of cookies to a folder on the server, 
+- Set scope to a domain
+--------------
+s
+#########################
+how to read cookie
+-----------
+- cookie with single value
+- cookie with subkeys
+----------
+s
+#########################
+Reading Cookie Collections
+-----------
+- cookie with single value
+- cookie with subkeys
+----------
+s
+##########################
+how to modify cookie
+---------
+s
+##########################
+how to delete cookie
+----------
+s
+#########################
+Modifying or Deleting Subkeys
+----------
+s
+###########################
+Cookies and Security
+-----------
+s
+#############################
+Determining Whether a Browser Accepts Cookies
+-------------
+s
+*****************************
+*****************************
+refernces
+*****************************
+*****************************
+############################
+name space : system.web
+##############################
+https://msdn.microsoft.com/en-us/library/system.web(v=vs.110).aspx
+===========================
+class : httpcookie
+------------------------
+https://msdn.microsoft.com/en-us/library/system.web.httpcookie(v=vs.110).aspx 
+===========================
+class : httpresponse
+------------------------
+https://msdn.microsoft.com/en-us/library/system.web.httpresponse(v=vs.110).aspx
+===========================
+class : httprequest
+----------------------
+https://msdn.microsoft.com/en-us/library/system.web.httprequest(v=vs.110).aspx
