@@ -1,0 +1,15 @@
+what is layout ?
+- in pdf
+##############################
+what is different ways to create layout ?
+- in pdf
+##############################
+how to create layout?
+- in pdf
+###############################
+what is mean by partial view ?
+- in pdf 
+###############################
+how to create partial view
+- in pdf 
+###############################
