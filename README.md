@@ -5,7 +5,7 @@ But over time and with more learning and gaining more experience through my work
 so these projects are classified as exercises on a particular subject and not the best solutions.<br/>
 2- Some of the projects is developed by me and others i only read the code and the run the code.<br/>
 3- Watch The Projects In The Run Time In My Playlist in Youtube : <br/>
-https://www.youtube.com/playlist?list=PLnMJYQ3DJlRs6ByZxjbMrDOLAxipplA5u
+https://www.youtube.com/playlist?list=PLnMJYQ3DJlRsFFvuhq4DyNsML4dFgRv0I
 # Explain Folder :
 My Summary for Basic and Advance Topics in Software Engineering.<br/>
 I have studied the topics from different resources such as books, courses, articles and websites and then I collected and organized them according to each topic . <br/>
