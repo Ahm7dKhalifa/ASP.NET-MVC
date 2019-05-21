@@ -1,0 +1,48 @@
+============================================
+0.basics
+============================================
+- understand the structure or the componants of your project 
+  in your framework like : asp.net , laravel
+- routing and receive parameters from the url
+- model binding
+- UI --> 
+   layout , master pages , views , razor
+============================================
+1.Working With Database
+============================================
+- ORM and Mapping
+
+=============================================
+2.Authentication and Authorization 
+=============================================
+- working with different types of Authentication like :
+  1- individual user accounts authentication
+      1.1 local accounts : 
+           sessions , cookies , encryption , security
+      1.2 social accounts api
+           acess token , jwt ,oauth , openid
+  2- windows authentication
+  3- school or work account
+- see the photo in the folder Q/A
+
+==================================================
+3.Build Login System 
+==================================================
+1- Email confirmation
+2- Password Hashing
+3- Password Reset
+4- Grid for Unique --> Id , Link , ..
+5- Two Factor Authentication 
+6- send SMS from The Server
+
+===================================================
+4.security
+===================================================
+
+
+===================================================
+5.architecture and design patterns
+===================================================
+- read about 
+   1- n-tier architecture
+   2- repository and unit of work patterns
