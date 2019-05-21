@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+
+</head>
+	
+<body>
+
+   <button onclick="notifyMe()">Notify me!</button>
+	
+
+	
+	<script>
+		function notifyMe() {
+		  // Let's check if the browser supports notifications
+		  if (!("Notification" in window)) {
+			alert("This browser does not support desktop notification");
+		  }
+
+		  // Let's check whether notification permissions have already been granted
+		  else if (Notification.permission === "granted") {
+			// If it's okay let's create a notification
+			//var notification = new Notification("i am ahmed granted ");
+			var options = spawnNotification("body ,, click me to go to google", "google.PNG", "title");
+			var n = new Notification("title", options);
+			n.onclick = function (event) {
+				event.preventDefault(); // prevent the browser from focusing the Notification's tab
+				window.open('https://www.google.com/', '_blank');
+				n.close();
+			};
+			
+		  }
+
+		  // Otherwise, we need to ask the user for permission
+		  else if (Notification.permission !== "denied") {
+			Notification.requestPermission().then(function (permission) {
+			  // If the user accepts, let's create a notification
+			  if (permission === "granted") {
+				var notification = new Notification("thanks to allow notifications :)");
+			  }
+			});
+		  }
+
+		  // At last, if the user has denied notifications, and you 
+		  // want to be respectful there is no need to bother them any more.
+      }
+		
+		
+	   Notification.requestPermission().then(function(result) {
+		   console.log(result);
+	   });
+		
+	  function spawnNotification(body, icon, title) {
+		  var options = {
+			  body: body,
+			  icon: icon
+	      };
+		  
+          return options;
+     }
+ </script>
+</body>
+</html>
