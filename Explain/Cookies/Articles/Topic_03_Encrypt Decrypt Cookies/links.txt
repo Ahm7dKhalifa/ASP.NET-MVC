@@ -1,0 +1,5 @@
+1- https://blog.teamtreehouse.com/encrypting-cookies-in-the-browser
+------------------------
+2- https://stackoverflow.com/questions/11142882/what-are-cookies-and-sessions-and-how-do-they-relate-to-each-other
+------------------------
+3- http://www.codingfusion.com/Post/Encrypt-Decrypt-Cookies-in-asp-net
