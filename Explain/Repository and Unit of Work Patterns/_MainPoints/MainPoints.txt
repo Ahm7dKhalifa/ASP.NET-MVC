@@ -7,6 +7,7 @@
 1- https://docs.microsoft.com/en-us/previous-versions/msp-n-p/ff649690(v=pandp.10)
 2- https://medium.com/@pererikbergman/repository-design-pattern-e28c0f3e4a30
 3- https://deviq.com/repository-pattern/
+4- https://blog.kylegalbraith.com/2018/03/06/getting-familiar-with-the-awesome-repository-pattern/
 ==========================================
 2.Unit of Work Pattern
 ==========================================
@@ -26,13 +27,20 @@
 1- https://programmingwithmosh.com/net/common-mistakes-with-the-repository-pattern/
 
 ==========================================
-5.
+5.repository-with-viewmodel
 ==========================================
+#q/a
+1- https://stackoverflow.com/questions/23287942/using-view-models-with-repository-pattern
+2- https://codereview.stackexchange.com/questions/179251/repository-with-viewmodel-asp-net-mvc
 
-
 ==========================================
-6.
+6.Repository vs DAO
 ==========================================
+#q/a
+1- https://blog.sapiensworks.com/post/2012/11/01/Repository-vs-DAO.aspx
+2- https://www.geeksforgeeks.org/data-access-object-pattern/
+3- https://www.journaldev.com/16813/dao-design-pattern
+4- https://softwareengineering.stackexchange.com/questions/359896/is-it-right-to-have-dependenties-to-my-viewmodel-from-data-acces-layer-and-view
 
 
 ==========================================
