@@ -8,6 +8,12 @@
 2- https://medium.com/@pererikbergman/repository-design-pattern-e28c0f3e4a30
 3- https://deviq.com/repository-pattern/
 4- https://blog.kylegalbraith.com/2018/03/06/getting-familiar-with-the-awesome-repository-pattern/
+5- folder :
+5.1 https://dotnettutorials.net/lesson/repository-design-pattern-csharp/
+5.2 https://dotnettutorials.net/lesson/basic-repository-pattern-csharp/
+5.3 https://dotnettutorials.net/lesson/generic-repository-pattern-csharp-mvc/
+5.4 https://dotnettutorials.net/lesson/repository-pattern-implementation-guidelines-csharp/
+5.5 https://dotnettutorials.net/lesson/unit-of-work-csharp-mvc/
 ==========================================
 2.Unit of Work Pattern
 ==========================================
@@ -44,10 +50,12 @@
 
 
 ==========================================
-7.
+7.Generic Service With Generic Repository
 ==========================================
-
-
+#q/a
+1- https://code.msdn.microsoft.com/generic-repository-pattern-ddea2262
+2- https://codereview.stackexchange.com/questions/171162/generic-repository-and-generic-service
+3- https://forums.asp.net/t/2134952.aspx?How+to+create+Generic+repository+and+generic+service
 ==========================================
 8.
 ==========================================
