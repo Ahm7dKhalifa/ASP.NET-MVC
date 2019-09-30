@@ -11,11 +11,13 @@
 1- https://deviq.com/kinds-of-models/
 
 ==========================================
-2.what is viewmodel
+2.-what is viewmodel
+  -Where Should We Create ViewModel (physically) 
 ==========================================
 -q/a
 1- https://stackoverflow.com/questions/11064316/what-is-viewmodel-in-mvc
-
+2- https://www.tutlane.com/tutorial/aspnet-mvc/how-to-use-viewmodel-in-asp-net-mvc-with-example
+3- http://sampathloku.blogspot.com/2012/10/how-to-use-viewmodel-with-aspnet-mvc.html
 ==========================================
 3.what is dto
 ==========================================
