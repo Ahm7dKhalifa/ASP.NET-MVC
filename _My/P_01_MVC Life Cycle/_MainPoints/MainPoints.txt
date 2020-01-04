@@ -27,10 +27,14 @@
 - Q.1
 
 ==========================================
-5.
+5. - explain Request Life Cycle (mvc) in details 
+   - Comparing HttpModules and HttpHandlers
 ==========================================
-
-
+#resources :
+- Courses/Course_02_The MVC Request Life Cycle
+1- https://stackoverflow.com/questions/40424538/http-modules-and-http-handlers-in-asp-net-mvc
+2- https://support.microsoft.com/en-us/help/307985/info-asp-net-http-modules-and-http-handlers-overview
+*3- https://www.codeproject.com/Articles/30907/The-Two-Interceptors-HttpModule-and-HttpHandlers
 ==========================================
 6.
 ==========================================
