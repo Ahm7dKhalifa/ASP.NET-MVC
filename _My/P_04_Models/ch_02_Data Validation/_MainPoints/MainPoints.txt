@@ -1,0 +1,81 @@
+
+
+========================================
+1.Implement Data Validation in MVC
+  - what is DataAnnotations
+  - built-in DataAnnotations
+  - how to use DataAnnotations in( model --> in controller --> in view )
+  - how to identify your view model in the view : @model
+  - Html Helper methods to display error messages of the DataAnnotations
+========================================
+#resources :
+1- https://www.tutorialsteacher.com/mvc/implement-validation-in-asp.net-mvc
+2- https://www.tutorialsteacher.com/mvc/htmlhelper-validationmessage
+3- https://www.tutorialsteacher.com/mvc/htmlhelper-validationmessagefor
+4- https://www.tutorialsteacher.com/mvc/htmlhelper-validationsummary
+
+==========================================
+2.Custom Data Annotation : 
+  - Front VS Back-End Validation
+  - How To Make Custom Data Annotation Attribute By Derive From ValidationAttribute
+  - making the attributes reusable ( very important )
+  - hardcoded error message and how to solve it
+==========================================
+#resources :
+1- https://www.c-sharpcorner.com/article/custom-data-annotation-validation-in-mvc/
+
+==========================================
+3.-IMPORTANT Caution : null/empty and return false.
+  -how to set properties in attribute
+==========================================
+#resources :
+1- https://stackoverflow.com/questions/3413715/how-to-create-custom-data-annotation-validators
+
+==========================================
+4.Data annotation validation for multiple model properties with each other
+==========================================
+#resources :
+1- http://www.binaryintellect.net/articles/55bef03e-3d41-4a0a-b874-78b7c7a9ce36.aspx
+
+==========================================
+5.
+==========================================
+
+
+==========================================
+6.
+==========================================
+
+
+==========================================
+7.
+==========================================
+
+
+==========================================
+8.
+==========================================
+
+
+==========================================
+9.
+==========================================
+
+
+==========================================
+10.
+==========================================
+
+==========================================
+11.
+==========================================
+
+
+==========================================
+12.
+==========================================
+
+
+==========================================
+13.
+==========================================
