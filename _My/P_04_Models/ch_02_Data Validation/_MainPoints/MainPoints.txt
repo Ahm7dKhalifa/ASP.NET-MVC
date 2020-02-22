@@ -35,7 +35,10 @@
 4.Data annotation validation for multiple model properties with each other
 ==========================================
 #resources :
-1- http://www.binaryintellect.net/articles/55bef03e-3d41-4a0a-b874-78b7c7a9ce36.aspx
+0- https://stackoverflow.com/questions/7025198/mvc-custom-validation-compare-two-dates
+1- https://stackoverflow.com/questions/25682238/data-validation-attribute-for-a-condition-between-two-properties-asp-net-mvc
+2- https://stackoverflow.com/questions/42032739/asp-net-mvc-custom-multiple-fields-validation
+3- https://stackoverflow.com/questions/6075339/mvc-form-validation-on-multiple-fields
 
 ==========================================
 5.
