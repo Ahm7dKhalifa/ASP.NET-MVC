@@ -41,15 +41,17 @@
 3- https://stackoverflow.com/questions/6075339/mvc-form-validation-on-multiple-fields
 
 ==========================================
-5.
+5.handling multiple validation rules in one rule or Attribute
 ==========================================
-
+#resources :
+1- https://captechconsulting.com/blogs/handling-multiple-validation-rules-in-asp-net-mvc-using-data-annotations-and-unobtrusive-j-query-validator-part-1
 
 ==========================================
-6.
+6.should data-annotations be on the model or the view-model
 ==========================================
-
-
+#resources ;
+1- https://stackoverflow.com/questions/4452144/should-data-annotations-be-on-the-model-or-the-view-model
+2- https://forums.asp.net/t/2087322.aspx?DRY+principle+and+ViewModel+data+annotations
 ==========================================
 7.
 ==========================================
