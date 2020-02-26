@@ -91,14 +91,18 @@ good folder
 1- https://stackoverflow.com/questions/4618152/how-do-i-design-a-data-access-layer-appropriately
 
 ==========================================
-11.
+11.Organization of services in service layer?
 ==========================================
-
+#resources :
+1- https://stackoverflow.com/questions/7727528/organization-of-services-in-service-layer
+2- https://stackoverflow.com/questions/6138660/how-does-a-service-layer-fit-into-my-repository-implementation?rq=1
+3- https://jeffreypalermo.com/2008/07/the-onion-architecture-part-1/
 
 ==========================================
-12.
+12.different types of services in n tier architect
 ==========================================
-
+#resources :
+1- https://stackoverflow.com/questions/38981882/is-this-domain-or-application-service
 
 ==========================================
 13.
