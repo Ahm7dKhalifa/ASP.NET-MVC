@@ -54,6 +54,7 @@
 9- https://www.entityframeworktutorial.net/eager-loading-in-entity-framework.aspx
 10- https://www.tutorialspoint.com/entity_framework/entity_framework_eager_loading.htm
 11- https://stackoverflow.com/questions/13282610/adding-items-to-a-collection-using-entity-framework
+12- https://softwareengineering.stackexchange.com/questions/170120/how-should-i-implement-the-repository-pattern-for-complex-object-models
 ==========================================
 7.Generic Service With Generic Repository
 ==========================================
@@ -62,18 +63,32 @@
 2- https://codereview.stackexchange.com/questions/171162/generic-repository-and-generic-service
 3- https://forums.asp.net/t/2134952.aspx?How+to+create+Generic+repository+and+generic+service
 ==========================================
-8.
+8.good vs bad DAL Examples :
+  1- first example :
+  - the service layer must do not know any thing about the implmentaion of DAL 
+    or how the app will connect to the database 
+  - return type
 ==========================================
+1- first example :
+bad folder:
+1- http://aniarlabs.com/?p=114
+good folder
+1- http://rahulrajatsingh.com/2014/06/creating-asp-net-applications-with-n-tier-architecture/
+
+==========================================
+9.create generic data-access-layer with different database using ADO.NET and interfaces
+==========================================
+#resources :
+1- http://csharpdocs.com/generic-data-access-layer-in-c-using-factory-pattern/
+2.1 - http://csharpdocs.com/how-to-create-sql-data-access-layer-in-c-using-ado-net-part-1/
+2.2 - http://csharpdocs.com/how-to-create-sql-data-access-layer-in-c-using-ado-net-part-2/
 
 
 ==========================================
-9.
+10.design-a-data-access-layer for sql and file systems
 ==========================================
-
-
-==========================================
-10.
-==========================================
+#resources :
+1- https://stackoverflow.com/questions/4618152/how-do-i-design-a-data-access-layer-appropriately
 
 ==========================================
 11.
