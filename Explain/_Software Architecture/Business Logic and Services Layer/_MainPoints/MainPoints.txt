@@ -1,7 +1,13 @@
 
 
 ========================================
-1.Business Layer Guidelines and General Application Architecture Guide
+1.- Business Layer Guidelines 
+    * types of services or business logic 
+  - General Application Architecture Guide
+    - Data-Centric 
+      *Classic 3 Tier architecture
+    - Domian-Centric 
+      *Clean architecture  
 ========================================
 #resources :
 1- http://www.guidanceshare.com/wiki/Application_Architecture_Guide_-_Chapter_9_-_Layers_and_Tiers
@@ -9,6 +15,7 @@
 3- https://docs.microsoft.com/en-us/previous-versions/msp-n-p/ee658103%28v%3dpandp.10%29
 4- https://stackoverflow.com/questions/2007154/business-layer-logic-bll-is-about-data/2007166#2007166
 5- https://www.codeproject.com/Articles/1184933/Application-Architecture-Grab-Fried-Onion-Rings-An
+6- https://docs.microsoft.com/en-us/dotnet/architecture/modern-web-apps-azure/common-web-application-architectures
 ==========================================
 2.Sending Email Service Type
 ==========================================
@@ -16,7 +23,7 @@
 1- https://stackoverflow.com/questions/5736885/does-sending-an-email-belong-in-the-presentation-layer-or-business-layer-of-an-a
 2- https://softwareengineering.stackexchange.com/questions/330378/ddd-where-to-use-infrastructure-services
 ==========================================
-3.Facade Pattern for Set Of Services
+3.Facade Pattern for Set Of Services Example
 ==========================================
 #resources :
 1- https://stackoverflow.com/questions/28189200/best-architecture-design-using-service-layer-and-interacting-services
@@ -30,20 +37,25 @@
 3- https://emacsway.github.io/en/service-layer/#infrastructure-service
 4- https://lostechies.com/jimmybogard/2008/08/21/services-in-domain-driven-design/
 ==========================================
-5.
+5.user registration domain service example
 ==========================================
-
-
-==========================================
-6.
-==========================================
-
+#resources:
+1- https://culttt.com/2014/10/20/creating-user-registration-domain-service/
 
 ==========================================
-7.
+6.DDD vs “Onion Architecture”?
 ==========================================
+#resources :
+1- https://stackoverflow.com/questions/3399576/what-is-the-relationship-between-ddd-and-the-onion-architecture
 
-
+==========================================
+7.entity framework database first with clean architecture
+- your domain model (core) should be persistence-ignorant.
+==========================================
+#resources:
+1- https://stackoverflow.com/questions/24392181/entity-framework-6-database-first-and-onion-architecture
+2- https://stackoverflow.com/questions/60335165/with-entity-framework-core-database-first-approach-how-do-i-separate-my-entity-f
+3- https://stackoverflow.com/questions/23523492/mapping-database-first-ef6-entities-to-domain-model-entities
 ==========================================
 8.
 ==========================================
