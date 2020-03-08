@@ -1,0 +1,74 @@
+
+
+========================================
+1. multi-language database design
+========================================
+#resources :
+1- https://stackoverflow.com/questions/929410/what-are-best-practices-for-multi-language-database-design
+2- https://stackoverflow.com/questions/12300737/database-design-for-multiple-language-website
+3- https://stackoverflow.com/questions/2227985/whats-the-best-database-structure-to-keep-multilingual-data/
+4- https://stackoverflow.com/questions/316780/schema-for-a-multilanguage-database/316822#316822
+==========================================
+2.translate elements like :
+  - Plain Texts.
+  - Images
+  - Validation Messages from Client and Server code
+  - Localizing entire Views
+  - Other Script and CSS file
+  - Localized content from back-end storage components such as databases
+==========================================
+#resources :
+1- https://www.codeproject.com/Articles/1160340/Get-insight-to-build-your-first-Multi-Language-ASP
+
+==========================================
+3.
+==========================================
+
+
+==========================================
+4.
+==========================================
+
+
+==========================================
+5.
+==========================================
+
+
+==========================================
+6.
+==========================================
+
+
+==========================================
+7.
+==========================================
+
+
+==========================================
+8.
+==========================================
+
+
+==========================================
+9.
+==========================================
+
+
+==========================================
+10.
+==========================================
+
+==========================================
+11.
+==========================================
+
+
+==========================================
+12.
+==========================================
+
+
+==========================================
+13.
+==========================================
