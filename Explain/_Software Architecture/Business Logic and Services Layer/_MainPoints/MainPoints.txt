@@ -36,6 +36,7 @@
 2- https://blog.jonathanoliver.com/services-infrastructure-application-domain-and-object/
 3- https://emacsway.github.io/en/service-layer/#infrastructure-service
 4- https://lostechies.com/jimmybogard/2008/08/21/services-in-domain-driven-design/
+5- https://docs.microsoft.com/bs-latn-ba/azure/architecture/microservices/model/tactical-ddd
 ==========================================
 5.user registration domain service example
 ==========================================
@@ -56,11 +57,18 @@
 1- https://stackoverflow.com/questions/24392181/entity-framework-6-database-first-and-onion-architecture
 2- https://stackoverflow.com/questions/60335165/with-entity-framework-core-database-first-approach-how-do-i-separate-my-entity-f
 3- https://stackoverflow.com/questions/23523492/mapping-database-first-ef6-entities-to-domain-model-entities
-==========================================
-8.
-==========================================
 
-
+==========================================
+8.Creating Domain-Driven Design entity classes Example
+  - business or domian object contain its rules or logic
+==========================================
+#resources :
+0- https://docs.microsoft.com/en-us/dotnet/architecture/microservices/microservice-ddd-cqrs-patterns/microservice-domain-model
+1- https://docs.microsoft.com/en-us/dotnet/architecture/microservices/microservice-ddd-cqrs-patterns/net-core-microservice-domain-model
+2- https://www.thereformedprogrammer.net/creating-domain-driven-design-entity-classes-with-entity-framework-core/
+3- https://github.com/dotnet-architecture/eShopOnContainers/tree/master
+- https://github.com/dotnet-architecture/eShopOnContainers/blob/master/src/Services/Ordering/Ordering.Domain/AggregatesModel/OrderAggregate/Order.cs
+4- https://stackoverflow.com/questions/756849/ddd-dependencies-between-domain-model-services-and-repositories
 ==========================================
 9.
 ==========================================

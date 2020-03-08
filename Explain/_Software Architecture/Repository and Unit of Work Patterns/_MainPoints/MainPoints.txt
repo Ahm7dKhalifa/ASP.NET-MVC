@@ -20,6 +20,7 @@
 #q/a
 1- https://jasonwatmore.com/post/2015/01/28/unit-of-work-repository-pattern-in-mvc5-and-web-api-2-with-fluent-nhibernate-and-ninject
 2- https://mono.software/2017/01/13/unit-of-work-a-design-pattern/
+
 ==========================================
 3.Implementing the Repository and Unit of Work Patterns in an ASP.NET MVC 
 ==========================================
@@ -38,7 +39,7 @@
 #q/a
 1- https://stackoverflow.com/questions/23287942/using-view-models-with-repository-pattern
 2- https://codereview.stackexchange.com/questions/179251/repository-with-viewmodel-asp-net-mvc
-
+3- https://www.programmingwithwolfgang.com/repository-and-unit-of-work-pattern/
 ==========================================
 6.Repository vs DAO
 ==========================================
@@ -105,5 +106,16 @@ good folder
 1- https://stackoverflow.com/questions/38981882/is-this-domain-or-application-service
 
 ==========================================
-13.
+13.transaction-for-repositories
 ==========================================
+#resources :
+1- https://stackoverflow.com/questions/39906474/how-can-i-implement-a-transaction-for-my-repositories-with-entity-framework
+
+
+
+
+
+
+
+
+
