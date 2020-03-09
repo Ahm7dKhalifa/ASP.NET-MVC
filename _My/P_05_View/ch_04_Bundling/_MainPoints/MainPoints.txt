@@ -1,0 +1,80 @@
+
+
+========================================
+1.what is bundling ?
+========================================
+#resources :
+1- folder
+1. https://www.tutorialsteacher.com/mvc/bundling-and-minification-in-asp.net-mvc
+
+2- https://docs.microsoft.com/en-us/aspnet/mvc/overview/performance/bundling-and-minification
+==========================================
+2.what is Minification ?
+==========================================
+#q/a --> 1
+
+==========================================
+3.Bundle Types
+==========================================
+#q/a --> 1
+
+==========================================
+4.Controlling Bundling and Minification
+  - enable Bundling and Minification
+  - BundleConfig.cs
+  - Creating a Bundle : 
+       * for set of files in different folder 
+       * for all files in one folder
+  - multiple bundles in one line
+  - name convention , wildcard 
+  - Bundle Caching
+  - Render Bundle In The View
+==========================================
+#q/a --> 1
+
+==========================================
+5.-What is The Problem That this Class Solve 
+   CssRewriteUrlTransform Class
+  - Rewrites urls to be absolute so assets will still be found after bundling.
+==========================================
+#resources :
+1- https://stackoverflow.com/questions/22700385/font-awesome-not-working-bundleconfig-in-mvc5
+2- https://docs.microsoft.com/en-us/previous-versions/aspnet/dn202167(v=vs.110)
+
+==========================================
+6.
+==========================================
+
+
+==========================================
+7.
+==========================================
+
+
+==========================================
+8.
+==========================================
+
+
+==========================================
+9.
+==========================================
+
+
+==========================================
+10.
+==========================================
+
+==========================================
+11.
+==========================================
+
+
+==========================================
+12.
+==========================================
+
+
+==========================================
+13.
+==========================================
