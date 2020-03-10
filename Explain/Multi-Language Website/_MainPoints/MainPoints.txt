@@ -8,6 +8,7 @@
 2- https://stackoverflow.com/questions/12300737/database-design-for-multiple-language-website
 3- https://stackoverflow.com/questions/2227985/whats-the-best-database-structure-to-keep-multilingual-data/
 4- https://stackoverflow.com/questions/316780/schema-for-a-multilanguage-database/316822#316822
+
 ==========================================
 2.translate elements like :
   - Plain Texts.
@@ -21,10 +22,27 @@
 1- https://www.codeproject.com/Articles/1160340/Get-insight-to-build-your-first-Multi-Language-ASP
 
 ==========================================
-3.
+3.Globalization and Localization
+  - Resource File 
+    * what is ?
+    * how to create ?
+    * how to use them in the view ?
+    * Thread.CurrentUICulture Property
+    * set The Current or default lang :
+    	* Using The BaseControlle
+    	* Using filter
+    * get The Current or default lang 
+        * using routing
+        * using cookie
 ==========================================
-
-
+#resources :
+1- https://docs.microsoft.com/en-us/previous-versions/aspnet/c6zyy3s9(v=vs.100)
+2- https://docs.microsoft.com/en-us/previous-versions/aspnet/ms227427%28v%3dvs.100%29
+3- https://docs.microsoft.com/en-us/dotnet/api/system.threading.thread.currentuiculture?redirectedfrom=MSDN&view=netframework-4.8#System_Threading_Thread_CurrentUICulture
+4- https://www.codeproject.com/Tips/1064291/Working-with-Resources-File-in-ASP-NET-MVC
+5- https://stackoverflow.com/questions/11399068/how-to-access-global-resources-in-a-view-using-asp-net-mvc-razor
+6- https://www.codeproject.com/Articles/1095786/Route-friendly-localization-of-ASP-NET-MVC
+7- https://www.c-sharpcorner.com/UploadFile/4d9083/globalization-and-localization-in-Asp-Net-mvc-4/
 ==========================================
 4.
 ==========================================
