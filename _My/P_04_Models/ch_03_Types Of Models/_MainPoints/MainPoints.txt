@@ -13,11 +13,21 @@
 3- https://stackoverflow.com/questions/1863537/what-is-a-domain-model
 4- https://entityframework.net/knowledge-base/26563444/entity-vs-model-vs-view-model
 5- https://www.quickdevnotes.com/entity-model-viewmodel-datamodel/
-==========================================
-2.
-==========================================
 
-
+==========================================
+2.what is view model ?
+  - DataAnnotations on Model or ViewModel?
+  - should you create a model for each view?
+  - what is the difference between a view model and a data transfer object?
+==========================================
+#resources :
+1- https://stackoverflow.com/questions/11064316/what-is-viewmodel-in-mvc
+2- https://www.c-sharpcorner.com/UploadFile/abhikumarvatsa/what-is-model-and-viewmodel-in-mvc-pattern/
+3- https://www.dotnettricks.com/learn/mvc/understanding-viewmodel-in-aspnet-mvc
+4- https://forums.asp.net/t/1502378.aspx?DataAnnotations+on+Model+or+ViewModel+
+5- https://stackoverflow.com/questions/5077393/asp-net-mvc-should-you-create-a-model-for-each-view
+6- https://stackoverflow.com/questions/1431445/what-is-the-difference-between-a-view-model-and-a-data-transfer-object
+7- https://stackoverflow.com/questions/19948863/whats-the-difference-between-model-viewmodel-and-dto/19949044
 ==========================================
 3.
 ==========================================
