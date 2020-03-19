@@ -69,11 +69,22 @@
 3- https://github.com/dotnet-architecture/eShopOnContainers/tree/master
 - https://github.com/dotnet-architecture/eShopOnContainers/blob/master/src/Services/Ordering/Ordering.Domain/AggregatesModel/OrderAggregate/Order.cs
 4- https://stackoverflow.com/questions/756849/ddd-dependencies-between-domain-model-services-and-repositories
-==========================================
-9.
-==========================================
 
-
+==========================================
+9.Map Between ( View Model <--> Domain Model <--> Data Model )
+==========================================
+#resources :
+1- https://softwareengineering.stackexchange.com/questions/306116/mapping-domain-models-to-viewmodel
+2- https://www.codeproject.com/Articles/1043977/Mapping-ViewModel-to-Model-in-ASP-NET-MVC-using-Im
+3- https://stackoverflow.com/questions/2206005/how-to-map-view-model-back-to-domain-model-in-a-post-action
+4- https://entityframework.net/knowledge-base/11470164/where-to-convert-business-model-to-view-model-
+5- https://forums.asp.net/t/2097150.aspx?Should+we+use+View+Models+or+Entity+Models+in+Data+Access+Layer+and+Business+Access+Layer+
+6- https://stackoverflow.com/questions/53966427/should-service-layer-accept-a-dto-or-a-custom-request-object-from-the-controller
+7- https://stackoverflow.com/questions/20944865/repository-pattern-and-mapping-between-domain-models-and-entity-framework
+8- https://entityframework.net/knowledge-base/40235154/ddd-mapping-entity-framework-data-model-to-domain-models
+9- https://softwareengineering.stackexchange.com/questions/365643/should-the-data-model-be-identical-to-the-domain-model-for-mapping-purposes
+10- https://study.com/academy/lesson/domain-model-vs-data-model.html
+11- https://stackoverflow.com/questions/14884216/using-my-own-domain-model-objects-with-edmx-in-entity-framework
 ==========================================
 10.
 ==========================================
