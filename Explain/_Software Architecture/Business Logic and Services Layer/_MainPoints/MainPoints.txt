@@ -28,6 +28,7 @@
 12- https://stackoverflow.com/questions/6606205/one-service-for-each-entity
 13- https://softwareengineering.stackexchange.com/questions/293885/what-is-the-difference-between-business-and-application-logic
 14- https://stackoverflow.com/questions/7727528/organization-of-services-in-service-layer
+15- https://softwareengineering.stackexchange.com/questions/218011/how-accurate-is-business-logic-should-be-in-a-service-not-in-a-model
 ==========================================
 2.Sending Email Service Type
 ==========================================
@@ -89,6 +90,7 @@
 
 5- https://softwareengineering.stackexchange.com/questions/124446/ddd-with-orm-where-should-the-business-logic-go
 6- https://stackoverflow.com/questions/7781573/ddd-what-kinds-of-behavior-should-i-put-on-a-domain-entity
+
 ==========================================
 9.Map Between ( View Model <--> Domain Model <--> Data Model )
 ==========================================
@@ -104,24 +106,48 @@
 9- https://softwareengineering.stackexchange.com/questions/365643/should-the-data-model-be-identical-to-the-domain-model-for-mapping-purposes
 10- https://study.com/academy/lesson/domain-model-vs-data-model.html
 11- https://stackoverflow.com/questions/14884216/using-my-own-domain-model-objects-with-edmx-in-entity-framework
-
+12- https://stackoverflow.com/questions/48248114/how-to-implement-automapper-with-generic-repository-pattern
+13- https://gist.github.com/mcnkbr/f96532254f62a384878f
+14- https://stackoverflow.com/questions/27108846/how-to-map-data-access-to-business-logic-objects-in-entity-framework
+15- https://stackoverflow.com/questions/48248114/how-to-implement-automapper-with-generic-repository-pattern
 ==========================================
 10.application services 
    - application services is use cases
    - application service with project structure
+   - application service can be used for retrieve the information required by an entity ( purchase order entity --> purchase orders service)
+     or application service as a host for entity 
+   - CRUD operations in DDD
 ==========================================
 #resources :
 1- https://softwareengineering.stackexchange.com/questions/366188/ddd-are-use-cases-and-application-services-different-names-for-the-same-th
 2- https://khalilstemmler.com/articles/enterprise-typescript-nodejs/application-layer-use-cases/
 3- https://www.bennadel.com/blog/2385-application-services-vs-infrastructure-services-vs-domain-services.htm
-
+4- http://gorodinski.com/blog/2012/04/14/services-in-domain-driven-design-ddd/
+5- https://vaadin.com/learn/tutorials/ddd/ddd_and_hexagonal
+6- https://softwareengineering.stackexchange.com/questions/302187/crud-operations-in-ddd
+7- http://www.pinfaq.com/1478/domain-driven-design-architecture-layer-design-operation
 ==========================================
 11.ddd projects samples :
 ==========================================
 #resources :
 1- https://github.com/zkavtaskin/Domain-Driven-Design-Example
+   1.1 http://www.zankavtaskin.com/2013/09/applied-domain-driven-design-ddd-part-1.html   
+   1.2 http://www.zankavtaskin.com/2013/09/applied-domain-driven-design-ddd-part-2.html
+   1.3 http://www.zankavtaskin.com/2013/10/applied-domain-driven-design-ddd-part-3.html
+   1.4 http://www.zankavtaskin.com/2013/11/applied-domain-driven-design-ddd-part-4_16.html
+   1.5 http://www.zankavtaskin.com/2013/11/applied-domain-driven-design-ddd-part-4.html
+   1.6 http://www.zankavtaskin.com/2013/11/applied-domain-driven-design-ddd-part-6.html
+   1.7 http://www.zankavtaskin.com/2016/06/applied-domain-driven-design-ddd-part-7.html
+   1.8 https://www.codeproject.com/Articles/1131462/Domain-Driven-Design-My-Top-Best-Practices
+   1.9 http://www.zankavtaskin.com/2016/08/applied-domain-driven-design-ddd-event.html
+
 2- https://github.com/volak/DDD.Enterprise.Example
 
+
+3.1 https://www.codeproject.com/Articles/1094774/Domain-Driven-Design-A-hands-on-Example-Part-of-3
+3.2 https://www.codeproject.com/Articles/1094773/Domain-Driven-Design-A-hands-on-Example-Part-of-2
+3.3 https://www.codeproject.com/articles/1094772/domain-driven-design-a-hands-on-example-part-of
+3.4 https://drive.google.com/file/d/0B38bnAS1s8xgUGd5dm04S3hMejA/view
 ==========================================
 12.domain services 
 ==========================================
@@ -145,3 +171,11 @@
 7- https://kalele.io/modeling-aggregates-with-ddd-and-entity-framework/
 
 8- https://stackoverflow.com/questions/16912939/the-right-way-to-implement-associations-in-ddd
+
+==========================================
+14.Anemic vs. Rich Domain Models
+==========================================
+#resources :
+1- https://blog.pragmatists.com/domain-driven-design-vs-anemic-model-how-do-they-differ-ffdee9371a86
+2- https://link-intersystems.com/blog/2011/10/01/anemic-vs-rich-domain-models/
+3- https://softwareengineering.stackexchange.com/questions/287366/ddd-put-logic-in-service-or-aggregate-root
