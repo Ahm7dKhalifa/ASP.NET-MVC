@@ -126,6 +126,8 @@
 5- https://vaadin.com/learn/tutorials/ddd/ddd_and_hexagonal
 6- https://softwareengineering.stackexchange.com/questions/302187/crud-operations-in-ddd
 7- http://www.pinfaq.com/1478/domain-driven-design-architecture-layer-design-operation
+
+8- https://softwareengineering.stackexchange.com/questions/355647/find-the-ddd-aggregate-root
 ==========================================
 11.ddd projects samples :
 ==========================================
