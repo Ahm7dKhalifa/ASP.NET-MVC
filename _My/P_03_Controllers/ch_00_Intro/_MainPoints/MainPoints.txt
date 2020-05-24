@@ -12,8 +12,18 @@
 
 ==========================================
 2.controller naming and location conditions
+  - best practices to controller naming and design :
+     * one controller for each logical group of functions :
+         - controller by entity ( employee - order - client ) : crud controller 
+         - controller by concepts (related action or pages) 
+            - login controller : signin - signup - signout
+            - profile controller
+            - settings controller
+         - controller for component
 ==========================================
 #q/a --> 1
+#resources :
+1- https://stackoverflow.com/questions/579958/what-should-you-name-your-controller-in-mvc-when-should-you-create-a-new-one
 
 ==========================================
 3.- how to add new controller

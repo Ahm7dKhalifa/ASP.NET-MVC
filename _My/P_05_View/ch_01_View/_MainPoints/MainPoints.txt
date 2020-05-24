@@ -28,10 +28,12 @@
 #Q/A --> 1
 
 ==========================================
-5.
+5.Multiple models in a view
 ==========================================
-
-
+#resources :
+1- https://stackoverflow.com/questions/4764011/multiple-models-in-a-view
+2- https://stackoverflow.com/questions/30925122/mvc-multiple-models-in-one-view
+3- http://www.dotnet-stuff.com/tutorials/aspnet-mvc/way-to-use-multiple-models-in-a-view-in-asp-net-mvc
 ==========================================
 6.
 ==========================================
