@@ -197,6 +197,8 @@
 
 ============================================
 16.Organizing code into domain modules
+   - project structure files in ddd
+   - clean architecture
    - e-commerce examples
 ============================================
 #resources :
@@ -206,3 +208,17 @@
 4- https://www.codeproject.com/Articles/1094774/Domain-Driven-Design-A-hands-on-Example-Part-of-3
 5- https://martinfowler.com/bliki/BoundedContext.html
 6- https://docs.microsoft.com/bs-latn-ba/azure/architecture/microservices/model/domain-analysis?view=azurermps-6.12.0
+7- https://www.entropywins.wtf/blog/2016/11/24/implementing-the-clean-architecture/
+7.1 https://github.com/wmde/FundraisingFrontend/
+
+8. https://fullstackmark.com/post/18/building-aspnet-core-web-apis-with-clean-architecture
+9. https://ardalis.com/api-feature-folders
+=============================================
+17.a Bounded Context
+=============================================
+#resources :
+1- http://blog.sapiensworks.com/post/2016/08/12/DDD-Bounded-Contexts-Explained
+2- https://docs.microsoft.com/en-us/azure/architecture/microservices/model/domain-analysis
+3- http://blog.opus.ch/2019/03/ddd-concepts-and-patterns-bounded-context/
+4- https://www.entropywins.wtf/blog/2018/08/14/clean-architecture-bounded-contexts/
+5- https://www.slideshare.net/paucls/ddd-strategic-design-context-maps-paulo-clavijo-april-2018
