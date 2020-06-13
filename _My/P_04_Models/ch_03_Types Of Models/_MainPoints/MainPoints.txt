@@ -1,4 +1,8 @@
-
+=============================================
+0.Kinds of Models
+============================================
+#resources :
+1- https://deviq.com/kinds-of-models/
 
 ========================================
 1.what is domain model ?
@@ -19,6 +23,7 @@
   - DataAnnotations on Model or ViewModel?
   - should you create a model for each view?
   - what is the difference between a view model and a data transfer object?
+  - can view model contain services ?
 ==========================================
 #resources :
 1- https://stackoverflow.com/questions/11064316/what-is-viewmodel-in-mvc
@@ -28,7 +33,8 @@
 5- https://stackoverflow.com/questions/5077393/asp-net-mvc-should-you-create-a-model-for-each-view
 6- https://stackoverflow.com/questions/1431445/what-is-the-difference-between-a-view-model-and-a-data-transfer-object
 7- https://stackoverflow.com/questions/19948863/whats-the-difference-between-model-viewmodel-and-dto/19949044
-
+8- https://forums.asp.net/t/2055737.aspx?In+MVC+can+ViewModels+access+service+layer+What+is+the+best+practice+
+9- https://forums.asp.net/t/2151256.aspx?HOW+TO+ADD+VIEW+MODEL+AND+SERVICE+LAYER+USING+EXSTENSIONS
 ==========================================
 3.what is dto ?
 - Which layer of the application should contain DTO implementation

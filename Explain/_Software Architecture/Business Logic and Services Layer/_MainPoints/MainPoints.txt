@@ -213,6 +213,7 @@
 
 8. https://fullstackmark.com/post/18/building-aspnet-core-web-apis-with-clean-architecture
 9. https://ardalis.com/api-feature-folders
+
 =============================================
 17.a Bounded Context
 =============================================
@@ -222,3 +223,12 @@
 3- http://blog.opus.ch/2019/03/ddd-concepts-and-patterns-bounded-context/
 4- https://www.entropywins.wtf/blog/2018/08/14/clean-architecture-bounded-contexts/
 5- https://www.slideshare.net/paucls/ddd-strategic-design-context-maps-paulo-clavijo-april-2018
+
+
+
+==============================================
+18.anemic model vs rich model
+===============================================
+#resources :
+1- https://link-intersystems.com/blog/2011/10/01/anemic-vs-rich-domain-models/
+2- https://amido.com/blog/anaemic-domain-model-vs-rich-domain-model/
