@@ -25,6 +25,8 @@
   - what is the difference between a view model and a data transfer object?
   - can view model contain services ?
   - Any presentation Logic will be handled by view model
+  - Multiple models in a view
+  - Multiple views for same a model
 ==========================================
 #resources :
 1- https://stackoverflow.com/questions/11064316/what-is-viewmodel-in-mvc
@@ -37,6 +39,10 @@
 8- https://forums.asp.net/t/2055737.aspx?In+MVC+can+ViewModels+access+service+layer+What+is+the+best+practice+
 9- https://forums.asp.net/t/2151256.aspx?HOW+TO+ADD+VIEW+MODEL+AND+SERVICE+LAYER+USING+EXSTENSIONS
 10- https://www.sharpencode.com/article/MVC/view-model
+11- https://stackoverflow.com/questions/4764011/multiple-models-in-a-view
+12- https://www.codeproject.com/Articles/1108855/ways-to-Bind-Multiple-Models-on-a-View-in-MVC
+13- https://stackoverflow.com/questions/4683197/how-do-i-return-two-different-views-from-the-same-action-in-asp-net-mvc
+14- https://stackoverflow.com/questions/6937156/returning-multiple-partial-views-from-single-controller-action
 ==========================================
 3.what is dto ?
 - Which layer of the application should contain DTO implementation

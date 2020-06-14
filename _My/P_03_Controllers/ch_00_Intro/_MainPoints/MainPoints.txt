@@ -14,12 +14,13 @@
 2.controller naming and location conditions
   - best practices to controller naming and design :
      * one controller for each logical group of functions :
-         - controller by entity ( employee - order - client ) : crud controller 
-         - controller by concepts (related action or pages) 
-            - login controller : signin - signup - signout
+         - controller by entity ( employee - order - client ) --> crud controller 
+         - controller by concepts (related actions or pages) 
+            - login controller : signin - signup - signout - reset password - send email
+            - home controller : index - about
             - profile controller
             - settings controller
-         - controller for component
+         - controller/actions/partial views for ui-components like : departments select menu - signout button - create form
 ==========================================
 #q/a --> 1
 #resources :

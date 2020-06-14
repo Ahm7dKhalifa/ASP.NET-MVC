@@ -20,20 +20,36 @@
 #q/a --> 1
 
 ==========================================
-4.
+4.using of Partial view as ui-component or a control in Web Form application 
 ==========================================
-
+#resources :
+1- https://www.tothenew.com/blog/create-partial-view-in-mvc-in-asp-net-and-integrate-as-a-reusable-component-in-umbraco-cms/
+2- https://www.c-sharpcorner.com/article/layout-view-view-and-partial-view-in-asp-net/
+3- https://www.w3resource.com/asp.net/partial-view-in-asp.net-mvc.php
+4- https://docs.microsoft.com/en-us/aspnet/mvc/overview/older-versions-1/nerddinner/re-use-ui-using-master-pages-and-partials
 
 ==========================================
-5.
+5.using same partial view with different controller in mvc
 ==========================================
-
+#resources :
+1- https://stackoverflow.com/questions/7968234/render-partial-view-from-other-controller/7968265
+2- https://stackoverflow.com/questions/21089917/how-to-return-partial-view-of-another-controller-by-controller
+3- https://stackoverflow.com/questions/19006859/mvc-shared-partial-views-using-different-controllers-and-models
+4- https://stackoverflow.com/questions/6060397/calling-html-partial-to-display-a-partial-view-belonging-to-a-different-control
 
 ==========================================
-6.
+6.load json data vs partial views
+- render data using json or html
 ==========================================
-
-
+#resources :
+1- https://stackoverflow.com/questions/5694621/ajax-and-asp-net-mvc-should-i-use-partialview-or-json
+2- https://stackoverflow.com/questions/39625405/returning-partialview-json-from-mvc-5-controller
+3- https://www.c-sharpcorner.com/UploadFile/3d39b4/rendering-a-partial-view-and-json-data-using-ajax-in-Asp-Net/
+4- https://www.codeproject.com/Articles/748842/Rendering-a-Partial-View-and-JSON-Data-Using-AJAX
+5- https://stackoverflow.com/questions/4982970/jquery-templates-vs-partial-views-in-asp-net-mvc
+6- https://stackoverflow.com/questions/5577094/is-json-better-than-partial-views-for-all-use-cases-in-asp-net-mvc
+7- https://visualstudiomagazine.com/Blogs/Tool-Tracker/2015/05/Ajax-Partial-Views-ASP-NET-MVC.aspx
+8- http://www.binaryintellect.net/articles/218ca630-ba50-48fe-af6e-6f754b5894aa.aspx
 ==========================================
 7.
 ==========================================
