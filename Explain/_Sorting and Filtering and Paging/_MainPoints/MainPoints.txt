@@ -1,31 +1,16 @@
 
-========================================
-0.Important Links :
-========================================
-#resources :
-
-front-end folder
-1- https://blog.algolia.com/learn-about-site-search-best-practices/
-2- https://www.uxbooth.com/articles/best-practices-for-search/
-
-back-end folder
-1- https://www.sqlshack.com/query-optimization-techniques-in-sql-server-tips-and-tricks/
-2- https://www.sisense.com/blog/8-ways-fine-tune-sql-queries-production-databases/
-3- https://blog.pythian.com/mysql-query-best-practices/
 
 ========================================
-1.load related entities best practice
-  - Projection
-  - eager loading vs lazy loading
+1.Sort result by one col
 ========================================
 #resources :
-1- https://softwareengineering.stackexchange.com/questions/361374/best-practice-loading-entity-with-related-entities
-2- https://stackoverflow.com/questions/10857655/what-does-query-projection-mean-in-entity-framework
-3- https://docs.microsoft.com/en-us/aspnet/core/data/ef-mvc/read-related-data?view=aspnetcore-3.1
-==========================================
-2.
-==========================================
+1- https://docs.microsoft.com/en-us/aspnet/core/data/ef-mvc/sort-filter-page?view=aspnetcore-3.1
 
+==========================================
+2.sort a collection with child property?
+==========================================
+#resources :
+1- https://stackoverflow.com/questions/6617596/how-do-i-sort-a-collection-with-child-property
 
 ==========================================
 3.
