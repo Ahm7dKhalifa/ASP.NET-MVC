@@ -1,0 +1,72 @@
+
+
+========================================
+1. My application tracks purchases and sales of inventory. 
+  - decide if I should use separate tables or same table
+========================================
+#resoures :
+1- https://stackoverflow.com/questions/43081683/same-table-or-different-table
+2- https://stackoverflow.com/questions/32646014/keeping-one-table-or-multiple-table-for-similar-type-of-data-which-one-is-best-w
+
+==========================================
+2. pros and cons of store total values that computed like : 
+- total price in order item = quantity * current unit price
+==========================================
+#resources :
+1- https://stackoverflow.com/questions/47123725/is-it-wise-to-store-total-values-into-the-sql-database
+
+==========================================
+3.two foreign keys referencing same table with cascade problem
+  - Foreign key constraint may cause cycles or multiple cascade paths?
+==========================================
+#resources :
+1- https://stackoverflow.com/questions/40400483/2-foreign-keys-referencing-same-table
+2- https://stackoverflow.com/questions/26524786/multiple-foreign-keys-to-the-same-table-in-a-database
+3- https://stackoverflow.com/questions/851625/foreign-key-constraint-may-cause-cycles-or-multiple-cascade-paths
+==========================================
+4.
+==========================================
+
+
+==========================================
+5.
+==========================================
+
+
+==========================================
+6.
+==========================================
+
+
+==========================================
+7.
+==========================================
+
+
+==========================================
+8.
+==========================================
+
+
+==========================================
+9.
+==========================================
+
+
+==========================================
+10.
+==========================================
+
+==========================================
+11.
+==========================================
+
+
+==========================================
+12.
+==========================================
+
+
+==========================================
+13.
+==========================================

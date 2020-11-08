@@ -5,6 +5,7 @@
 ========================================
 #resources :
 1- https://www.tutorialsteacher.com/https/what-is-https
+2- https://www.cloudflare.com/learning/ssl/what-is-https/
 
 ==========================================
 2.Advantage of https
