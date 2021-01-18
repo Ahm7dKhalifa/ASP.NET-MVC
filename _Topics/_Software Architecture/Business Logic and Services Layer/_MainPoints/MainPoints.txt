@@ -232,3 +232,32 @@
 #resources :
 1- https://link-intersystems.com/blog/2011/10/01/anemic-vs-rich-domain-models/
 2- https://amido.com/blog/anaemic-domain-model-vs-rich-domain-model/
+
+================================================
+19.DDD Using Abp Framework
+================================================
+#resources :
+#FOLDER : 
+1- https://docs.abp.io/en/abp/latest/Domain-Driven-Design
+2- https://docs.abp.io/en/abp/latest/Entities
+3- https://docs.abp.io/en/abp/latest/Value-Objects
+4- https://docs.abp.io/en/abp/latest/Repositories
+5- https://docs.abp.io/en/abp/latest/Domain-Services
+6- https://docs.abp.io/en/abp/latest/Specifications
+7- https://docs.abp.io/en/abp/latest/Application-Services
+8- https://docs.abp.io/en/abp/latest/Data-Transfer-Objects
+9- https://docs.abp.io/en/abp/latest/Unit-Of-Work
+10- https://docs.abp.io/en/abp/latest/Domain-Driven-Design-Implementation-Guide
+
+#Tutorial :
+#MVC And Razor Pages
+1- https://docs.abp.io/en/abp/latest/Tutorials/Part-1?UI=MVC&DB=EF
+2- https://docs.abp.io/en/abp/latest/Tutorials/Part-2?UI=MVC&DB=EF
+3- https://docs.abp.io/en/abp/latest/Tutorials/Part-3?UI=MVC&DB=EF
+4- https://docs.abp.io/en/abp/latest/Tutorials/Part-4?UI=MVC&DB=EF
+5- https://docs.abp.io/en/abp/latest/Tutorials/Part-5?UI=MVC&DB=EF
+6- https://docs.abp.io/en/abp/latest/Tutorials/Part-6?UI=MVC&DB=EF 
+7- https://docs.abp.io/en/abp/latest/Tutorials/Part-7?UI=MVC&DB=EF
+8- https://docs.abp.io/en/abp/latest/Tutorials/Part-8?UI=MVC&DB=EF
+9- https://docs.abp.io/en/abp/latest/Tutorials/Part-9?UI=MVC&DB=EF
+10- https://docs.abp.io/en/abp/latest/Tutorials/Part-10?UI=MVC&DB=EF
