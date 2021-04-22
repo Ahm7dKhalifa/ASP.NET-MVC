@@ -1,4 +1,4 @@
-
+﻿
 
 ========================================
 1.- Business Layer Guidelines 
@@ -261,3 +261,22 @@
 8- https://docs.abp.io/en/abp/latest/Tutorials/Part-8?UI=MVC&DB=EF
 9- https://docs.abp.io/en/abp/latest/Tutorials/Part-9?UI=MVC&DB=EF
 10- https://docs.abp.io/en/abp/latest/Tutorials/Part-10?UI=MVC&DB=EF
+
+====================================================
+20.Service-oriented architecture
+   - what is Service-oriented architecture ?
+   - A service has four properties : ......
+   - what are the key differences between SOA and traditional application architectures ?
+====================================================
+#resources :
+1- https://www.codemag.com/article/0505081/Service-Oriented-Architecture
+2- https://www.ibm.com/cloud/learn/soa
+3- https://en.wikipedia.org/wiki/Service-oriented_architecture
+4- https://www.engdraft.com/%D9%8Dsoa-intro/
+5- https://www.geeksforgeeks.org/service-oriented-architecture/
+6- https://iopscience.iop.org/article/10.1088/1742-6596/1090/1/012079/pdf
+7- https://core.ac.uk/download/pdf/231153234.pdf
+8- file:///C:/Users/ahmed.abdelaziz/Downloads/TowardaServiceOrientedDevelopmentThroughaCaseStudy.pdf\
+9- https://www.hindawi.com/journals/sp/2021/6611407/
+10- http://s3.beckshome.com/20070727-SOA-In-The-Real-World.pdf
+11- https://www.integrella.com/expertise/service-oriented-architecture/
