@@ -266,7 +266,13 @@
 20.Service-oriented architecture
    - what is Service-oriented architecture ?
    - A service has four properties : ......
+   - what are the Principles of SOA ?
+   - what are the Components of SOA ?
    - what are the key differences between SOA and traditional application architectures ?
+   - Enterprise Service Bus :
+        - what is Enterprise Service Bus ?
+        - what are the Functions or Benefits of esb ?
+        - what are the components of esb ?
 ====================================================
 #resources :
 1- https://www.codemag.com/article/0505081/Service-Oriented-Architecture
@@ -276,7 +282,18 @@
 5- https://www.geeksforgeeks.org/service-oriented-architecture/
 6- https://iopscience.iop.org/article/10.1088/1742-6596/1090/1/012079/pdf
 7- https://core.ac.uk/download/pdf/231153234.pdf
-8- file:///C:/Users/ahmed.abdelaziz/Downloads/TowardaServiceOrientedDevelopmentThroughaCaseStudy.pdf\
+8- https://www.researchgate.net/publication/3412702_Toward_a_Service-Oriented_Development_Through_a_Case_Study
 9- https://www.hindawi.com/journals/sp/2021/6611407/
 10- http://s3.beckshome.com/20070727-SOA-In-The-Real-World.pdf
 11- https://www.integrella.com/expertise/service-oriented-architecture/
+
+12- https://en.wikipedia.org/wiki/Enterprise_service_bus
+13- https://www.ibm.com/cloud/learn/esb
+14- https://zato.io/docs/intro/esb-soa.html
+15- https://www.programmersought.com/article/590099587/
+16- https://www.youtube.com/watch?v=eVrgMZH2jNY
+17- https://www.infoq.com/presentations/Enterprise-Service-Bus/
+
+18- https://www.guru99.com/soa-principles.html
+19- https://www.secc.org.eg/recocape/Documents/SECC_Tutorials_A%20Quick%20Introduction%20to%20SOA.pdf
+20- https://docs.particular.net/tutorials/quickstart/?kme=nsb-getstarted-top
